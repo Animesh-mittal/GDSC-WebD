@@ -1,0 +1,1941 @@
+.universe {
+  width: 1440px fixed;
+  height: 9256px;
+}
+
+/* css for nav-bar */
+
+.hero {
+  width: 1440px fixed;
+  height: 1024px;
+  background-image: url(Hero.png);
+  color: #ffffff;
+}
+.Navbar {
+  width: 1440px fixed;
+  height: 96px;
+  padding: 32px 98px 32px 98px;
+  gap: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+
+.frame-12 {
+  width: 1217.61px;
+  height: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+
+.Navbar1 {
+  width: 272.61px fixed;
+  height: 32px;
+  gap: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+
+.echo {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+
+.logo {
+  width: 21.28px;
+  height: 21.28px;
+  top: 5.38px;
+  left: 5.33px;
+  background-image: url(hero-logo.png);
+}
+
+.universe-name {
+  width: 232.61px;
+  height: 32px;
+  color: #ffffff;
+  background-image: url(Universe-name.png);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+
+.planet-names {
+  width: 422px;
+  height: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+
+.planet-names p {
+  color: #ffffff;
+  font-weight: 500;
+  size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.Navbar3 {
+  width: 206px;
+  height: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  z-index: 2;
+}
+
+/*css for hero section*/
+
+/* css for frame 2 */
+.frame-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 56px;
+
+  position: absolute;
+  width: 961px;
+  height: 500px;
+  left: 238px;
+  z-index: 2;
+}
+
+.frame-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 961px;
+  height: 500px;
+}
+
+.frame-1 h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 100px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  width: 961px;
+  height: 350px;
+  color: #ffffff;
+}
+
+.frame-1 p {
+  width: 961px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* for button */
+.learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 40px 28px 40px;
+  gap: 8px;
+
+  width: 246px;
+  height: 75px;
+
+  margin-top: 30px;
+  background: linear-gradient(
+    315deg,
+    #cd1013 1.19%,
+    #ff0004 1.5%,
+    #2500ff 94.46%
+  );
+  border-radius: 8px;
+}
+
+.learn-more h6 {
+  width: 134px;
+  height: 32px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.south {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+
+.south-arrow {
+  width: 13.17px;
+  height: 19.59px;
+
+  background-image: url(south.png);
+  margin-top: 2px;
+  margin-left: 5.42px;
+  color: #ffffff;
+}
+
+/* css for hero planets */
+
+.hero-planet1 {
+  background-image: url(hero-planet1.png);
+  position: absolute;
+  object-fit: cover;
+  width: 226px;
+  height: 150px;
+  margin-top: 713px;
+  margin-left: 584px;
+}
+
+.hero-planet2 {
+  background-image: url(hero-planet2.png);
+  position: absolute;
+  object-fit: cover;
+  width: 325px;
+  height: 550px;
+  top: 350px;
+  left: 8px;
+}
+
+.hero-planet3 {
+  background-image: url(hero-planet3.png);
+  position: absolute;
+  object-fit: cover;
+  width: 143.8px;
+  height: 140px;
+  top: 891.5px;
+}
+
+.hero-planet4 {
+  background-image: url(hero-planet4.png);
+  position: absolute;
+  object-fit: cover;
+  width: 391.3px;
+  height: 343.2px;
+  top: 688.5px;
+  left: 949.5px;
+}
+
+.hero-planet5 {
+  background-image: url(hero-planet5.png);
+  position: absolute;
+  object-fit: cover;
+  width: 255px;
+  height: 435px;
+  left: 1086px;
+  top: 90px;
+}
+
+.hero-planet6 {
+  background-image: url(hero-planet6.png);
+  position: absolute;
+  object-fit: cover;
+  width: 130.68px;
+  height: 144.85px;
+  top: 144px;
+  left: 720px;
+}
+
+.hero-planet7 {
+  background-image: url(hero-planet7.png);
+  position: absolute;
+  object-fit: cover;
+  width: 62.67px;
+  height: 63.69px;
+  top: 477.69px;
+  left: 271.28px;
+}
+
+.hero-planet8 {
+  background-image: url(hero-planet8.png);
+  position: absolute;
+  object-fit: cover;
+  width: 199.55px;
+  height: 247.22px;
+  top: 110px;
+}
+.hero-vector1 {
+  background-image: url(hero-vector1.png);
+  position: absolute;
+  object-fit: cover;
+  width: 62.62px;
+  height: 62.62px;
+  top: 420px;
+  left: 650px;
+}
+
+.hero-vector2 {
+  background-image: url(hero-Vector2.png);
+  position: absolute;
+  object-fit: cover;
+  width: 108.51px;
+  height: 108.51px;
+  left: 1050px;
+  top: 10px;
+}
+
+/* css for sun section */
+/* <!-- ---------------- --> */
+
+.sun {
+  background-image: url(Sun-section.png);
+  width: 1440px fix;
+  height: 1024px;
+  margin-top: 0px;
+  margin-left: -4px;
+  color: #ffffff;
+}
+
+.sun-image {
+  background-image: url(sun.png);
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  width: 1326px;
+  height: 494px;
+  object-fit: fill;
+  margin-left: 4px;
+}
+
+.sun-frame-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 826px;
+  height: 392px;
+  left: 98px;
+  top: 1560px;
+}
+
+.sun-frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 826px;
+  height: 176px;
+}
+
+.sun-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 171px;
+  height: 80px;
+}
+
+#dot {
+  width: 16px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+#sun-text-name {
+  width: 147px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.sun-frame-4 p {
+  width: 826px;
+  height: 72px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.sun-frame-5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 744px;
+  height: 176px;
+}
+
+.sun-card1 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 352px;
+  height: 176px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.donut_large {
+  width: 80px;
+  height: 80px;
+}
+
+.donut-logo {
+  background-image: url(donut-logo.png);
+  width: 65.45px;
+  height: 64.21px;
+  top: 7.88px;
+  left: 6.67px;
+  color: #ffffff;
+}
+
+.frame-3 {
+  width: 200px;
+  height: 148px;
+  gap: 8px;
+}
+
+.frame-3 h7 {
+  width: 81px;
+  height: 24px;
+  font-family: "Orbitron";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 10px;
+  color: #ffffff;
+}
+
+.frame-3 h4 {
+  width: 200px;
+  height: 76px;
+  font-family: "Orbitron";
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 48px;
+  margin-top: 10px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.sun-card2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 352px;
+  height: 176px;
+
+  background: radial-gradient(
+    110.92% 172.47% at 91.09% 101.78%,
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.group-3 {
+  background-image: url(Group3.png);
+
+  width: 32.92px;
+  height: 80px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* css for Mercury section */
+/* <!-- ---------------- --> */
+
+.Mercury {
+  background-image: url(Mercury-section.png);
+
+  width: 1440px fix;
+  height: 766px;
+
+  margin-left: 0px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+.Mercury-image {
+  background-image: url(Mercury.png);
+  position: absolute;
+  width: 520px;
+  height: 706px;
+  margin-top: 30px;
+}
+
+.Mercury-frame-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 740px;
+  height: 608px;
+  left: 602px;
+  top: 2128px;
+}
+
+.Mercury-frame-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 740px;
+  height: 176px;
+}
+
+.Mercury-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  width: 740px;
+  height: 80px;
+}
+
+.Mercury-text-name {
+  width: 308px;
+  height: 80px;
+  font-family: "Orbitron";
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+}
+.Mercury-frame-4 p {
+  width: 740px;
+  height: 72px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Mercury-frame-5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 40px 43px;
+
+  width: 760px;
+  height: 392px;
+}
+
+.Mercury-card1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 342px;
+  height: 176px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.frame-3 {
+  width: 200px;
+  height: 128px;
+  gap: 8px;
+}
+
+.Mercury-card2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 14px;
+
+  width: 322px;
+  height: 176px;
+  margin-right: 20px;
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.Mercury-card3 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 352px;
+  height: 176px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.night-temperature {
+  background-image: url(night-temperature.png);
+  width: 32.92px;
+  height: 80px;
+}
+
+/* css for venus section */
+/* <!-- ---------------- --> */
+
+.venus {
+  background-image: url(venus-section.png);
+  width: 1440px fix;
+  height: 785px;
+
+  margin-left: 0px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+.venus-frame-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 597px;
+  height: 624px;
+  left: 98px;
+  gap: 80px;
+}
+
+.venus-frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 597px;
+  height: 152px;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.venus-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 321px;
+  height: 80px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#two {
+  width: 70px;
+  height: 80px;
+  font-family: "Orbitron";
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+}
+
+.venus-text-name {
+  width: 70px;
+  height: 80px;
+  font-family: "Orbitron";
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+}
+
+.venus-frame-4 p {
+  width: 597px;
+  height: 48px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.venus-frame-5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 597px;
+  height: 392px;
+  margin-left: 80px;
+}
+
+.venus-card1 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 352px;
+  height: 176px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.venus-card2 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 352px;
+  height: 176px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.venus-image {
+  background-image: url(venus.png);
+  position: absolute;
+  object-fit: cover;
+  width: 820px;
+  height: 779px;
+  margin-left: 511.7px;
+  top: 2828px;
+}
+
+/* css for earth section */
+/* <!-- ---------------- --> */
+
+.earth {
+  background-image: url(Earth-section.png);
+  width: 1440px fixed;
+  height: 893px;
+  margin-left: 0px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+.earth-frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 677px;
+  height: 176px;
+  margin-left: 50px;
+  gap: 24px;
+}
+
+.earth-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 281px;
+  height: 80px;
+
+  margin-top: 64px;
+  gap: 8px;
+}
+
+#three {
+  width: 70px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+}
+
+.earth-text-name {
+  width: 203px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+}
+
+.earth-frame-4 p {
+  width: 677px;
+  height: 72px;
+
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.earth-frame-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  padding: 0px;
+  gap: 24px;
+
+  width: 677px;
+  height: 120px;
+  margin-left: 176px;
+  margin-top: 120px;
+}
+
+.earth-frame-8 h4 {
+  width: 256px;
+  height: 48px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: right;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.earth-frame-8 p {
+  width: 677px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -35px;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.earth-card {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  position: absolute;
+  width: 352px;
+  height: 176px;
+  left: 990px;
+  margin-top: -350px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.rocket {
+  background-image: url(rocket.png);
+  position: absolute;
+  object-fit: cover;
+
+  width: 169.99px;
+  height: 186.89px;
+
+  margin-left: 5px;
+  margin-top: 100px;
+}
+
+.earth-arrow {
+  background-image: url(earth-arrow.png);
+  position: absolute;
+  object-fit: cover;
+
+  width: 200px;
+  height: 167px;
+
+  margin-left: 857px;
+  margin-top: -100px;
+}
+
+.earth-image {
+  background-image: url(earth.png);
+
+  width: 1263px;
+  height: 538px;
+
+  margin-top: -62px;
+  margin-left: 30px;
+}
+
+/* css for mars section */
+/* <!-- ---------------- --> */
+
+.mars {
+  background-image: url(mars-section.png);
+  width: 1440px fixed;
+  height: 761px;
+
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.martian-moons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 0px;
+  gap: 0px;
+
+  position: absolute;
+  width: 352px;
+  height: 144px;
+  margin-left: 596px;
+  margin-top: 398px;
+}
+
+.martian-moons h4 {
+  width: 300px;
+  height: 48px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.martian-moons p {
+  width: 352px;
+  height: 72px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+
+  margin-top: -30px;
+}
+
+.mars-arrow {
+  background-image: url(mars-arrow.png);
+  position: absolute;
+  object-fit: cover;
+
+  width: 71.41px;
+  height: 52.84px;
+
+  margin-top: 360px;
+  margin-left: 489.08px;
+}
+
+.mars-image {
+  background-image: url(mars.png);
+  position: absolute;
+  object-fit: cover;
+
+  width: 554px;
+  height: 466px;
+
+  margin-top: 295px;
+}
+
+.mars-card1 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  position: absolute;
+  width: 352px;
+  height: 176px;
+  margin-left: 930px;
+  margin-top: 512px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.mars-card2 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  position: absolute;
+  width: 352px;
+  height: 176px;
+  margin-left: 930px;
+  margin-top: 296px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.mars-card3 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  position: absolute;
+  width: 352px;
+  height: 176px;
+  margin-left: 930px;
+  margin-top: 80px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.mars-frame-4 {
+  width: 657px;
+  height: 176px;
+  padding-top: 80px;
+  margin-left: 98px;
+  gap: 24px;
+}
+
+.mars-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 257px;
+  height: 80px;
+}
+
+#four {
+  width: 64px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.mars-text-name {
+  width: 185px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.mars-frame-4 p {
+  width: 657px;
+  height: 72px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+/* css for jupiter section */
+/* <!-- ---------------- --> */
+
+.jupiter {
+  background-image: url(Jupiter-section.png);
+  width: 1440px fixed;
+  height: 769px;
+}
+
+.jupiter-image {
+  background-image: url(jupiter.png);
+  position: absolute;
+
+  width: 783px;
+  height: 769px;
+  margin-left: 550px;
+}
+
+.jupiter-shadow {
+  background-image: url(jupiter-shadow.png);
+  position: absolute;
+
+  width: 605px;
+  height: 617px;
+  margin-left: 730px;
+}
+.jupiter-frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 610px;
+  height: 152px;
+  margin-left: 38px;
+  margin-top: 80px;
+}
+
+.jupiter-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 340px;
+  height: 80px;
+}
+
+#five {
+  width: 70px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.jupiter-text-name {
+  width: 262px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.jupiter-frame-4 p {
+  width: 610px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.jupiter-card1 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  position: absolute;
+  width: 352px;
+  height: 176px;
+  margin-left: 38px;
+  margin-top: 312px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.jupiter-card2 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  position: absolute;
+  width: 352px;
+  height: 176px;
+  margin-left: 38px;
+  margin-top: 513px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+/* css for saturn section */
+/* <!-- ---------------- --> */
+
+.saturn {
+  background-image: url(Saturn-section.png);
+  width: 1440px fixed;
+  height: 808px;
+}
+
+.saturn-image {
+  background-image: url(saturn.png);
+  position: absolute;
+
+  width: 897px;
+  height: 808px;
+}
+
+.saturn-frame-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 708px;
+  height: 176px;
+  margin-left: 580px;
+  margin-top: 80px;
+}
+
+.saturn-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 334px;
+  height: 80px;
+}
+
+#six {
+  width: 70px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.saturn-text-name {
+  width: 256px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.saturn-frame-4 p {
+  width: 708px;
+  height: 72px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.saturn-card1 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  position: absolute;
+  width: 352px;
+  height: 176px;
+  margin-left: 940px;
+  margin-top: 336px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.saturn-card2 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  position: absolute;
+  width: 352px;
+  height: 176px;
+  margin-left: 940px;
+  margin-top: 552px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+/* css for uranus section */
+/* <!-- ---------------- --> */
+
+.uranus {
+  background-image: url(Uranus-section.png);
+
+  width: 1440px fixed;
+  height: 819px;
+}
+
+.uranus-image {
+  background-image: url(uranus.png);
+  position: absolute;
+
+  width: 1359px;
+  height: 491px;
+
+  margin-top: 328px;
+}
+
+.uranus-frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 504px;
+  height: 176px;
+
+  margin-left: 98px;
+  margin-top: 80px;
+}
+
+.uranus-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 336px;
+  height: 80px;
+}
+
+#seven {
+  width: 59px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.uranus-text-name {
+  width: 269px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.uranus-frame-4 p {
+  width: 504px;
+  height: 72px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.uranus-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 720px;
+  height: 176px;
+  margin-left: 600px;
+  margin-top: 80px;
+}
+
+.uranus-card1 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 352px;
+  height: 176px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.uranus-card2 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 352px;
+  height: 176px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+/* css for neptune section */
+/* <!-- ---------------- --> */
+
+.neptune {
+  background-image: url(Neptune-section.png);
+  width: 1440px fixed;
+  height: 1024px;
+}
+
+.neptune-frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 1075px fixed;
+  height: 152px;
+
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 183px;
+  gap: 24px;
+}
+
+.neptune-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 385px;
+  height: 80px;
+}
+
+#eight {
+  width: 71px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.neptune-text-name {
+  width: 306px;
+  height: 80px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 80px;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.neptune-frame-4 p {
+  width: 1075px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.neptune-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 744px;
+  height: 176px;
+
+  margin-top: 312px;
+  margin-left: 348px;
+  gap: 40px;
+}
+
+.neptune-card1 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 352px;
+  height: 176px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.neptune-card2 {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 24px;
+
+  width: 352px;
+  height: 176px;
+
+  background: radial-gradient(
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 16px;
+}
+
+.neptune-image {
+  background-image: url(neptune.png);
+  position: absolute;
+  object-fit: cover;
+
+  width: 1240px;
+  height: 882px;
+
+  margin-top: 143px;
+}
+
+/* css for footer */
+
+.footer {
+  background-image: url(Footer-section.png);
+  width: 1440px fixed;
+  height: 583px;
+}
+
+.footer-image {
+  background-image: url(footer.png);
+  position: absolute;
+  object-fit: cover;
+  
+  width: 1240px;
+  height: 583px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 8px;
+  gap: 80px;
+
+  position: absolute;
+  width: 1136px;
+  height: 398px;
+  margin-top: 68px;
+  margin-left: 92px;
+
+  background: #1e1e1e;
+  border-radius: 40px;
+}
+
+.footer-frame-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 56px;
+
+  width: 797px;
+  height: 256px;
+}
+
+.footer-frame-10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 797px;
+  height: 128px;
+}
+
+.footer-frame-10 h3 {
+  width: 797px;
+  height: 56px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.footer-frame-10 p {
+  width: 797px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.button-join {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 15px;
+  gap: 8px;
+
+  width: 530px;
+  height: 72px;
+
+  background: #ffffff;
+  border-radius: 40px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+
+  width: 155px;
+  height: 56px;
+
+  background: linear-gradient(
+    315deg,
+    #cd1013 1.19%,
+    #ff0004 1.5%,
+    #2500ff 94.46%
+  );
+  border-radius: 40px;
+}
+
+.subscribe h7 {
+  width: 91px;
+  height: 24px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
